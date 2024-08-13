@@ -51,9 +51,9 @@ img#logo{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-family: 'brighton vintage';
+    font-family: "Kanit", sans-serif;
     transition: color 0.3s ease;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav-links a:hover {
