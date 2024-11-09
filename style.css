@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     line-height: 1.6;
@@ -132,7 +135,7 @@ img#logo{
     background-color: rgb(183 12 0);
     /* background-color: #03020c; */
     text-align: center;
-
+    padding-top: 100px;
 }
 
 .menu h2 {
@@ -202,8 +205,8 @@ img#logo{
     text-align: center;
     padding: 20px;
     background-color: #03020c;
-    /* background-color:rgb(141, 153, 174); */
-    /* background: url(Assets/Images/store.jpg); */
+    padding-top: 100px;
+    height: 100vh;
 }
 
 .about h2 {
@@ -247,18 +250,9 @@ img#store:hover{
 /* Contact Section */
 .contact {
     padding: 50px 20px;
-    /* background-color: rgb(141, 153, 174);
-     */
     background-color: #03020c;
-
-    /* background: url(Assets/Images/store.jpg); */
-    /* background-size: cover; */
-    /* background-position: center; */
     text-align: center;
-  /* filter: brightness(70%); */
-  /* position: relative; */
-  /* z-index: 1; */
-  height: 415px;
+  height: 440px;
 }
 img#c-img {
     position: relative;
@@ -292,10 +286,7 @@ a{
 
 /* Footer */
 footer {
-    /* background-color: rgb(43, 45, 66); */
     background-color: rgb(183 12 0);
-   
-
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -327,6 +318,10 @@ footer {
     #menu-toggle:checked + .hamburger + nav .nav-links {
         display: flex;
     }
+    .about{
+        height: auto;
+    }
+
     .about-content p{
         padding: 0px 50px;
         font-size: 18px;
